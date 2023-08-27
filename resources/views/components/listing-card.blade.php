@@ -3,7 +3,7 @@
 <x-card>
 
     <div class="left1/3 w-">
-        <img class="hidden md:block w-80" src="{{ $listing->logo ? asset('storage/'. $listing->logo) : asset('images/devsinc.png') }}" alt="">
+        <img class="hidden md:block w-80" src="{{ asset('images/devsinc.png') }}" alt="">
     </div>
     <div class="right mx-3">
         <a href="/listings/{{ $listing['id'] }}">
